@@ -1,0 +1,52 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: #000;
+}
+h1{
+	color: #F0F0D0;
+	height: 300px;
+	font-size: 120px;
+	text-align: center;
+	background: url('https://i.postimg.cc/FH71q1wn/Animated-fire-by-nevit.gif');
+	background-position: 100% 100%;
+	background-clip: text;
+	-webkit-background-clip: text;
+	color: transparent;
+	 -webkit-text-stroke-width: 1px;
+  -webkit-text-stroke-color: #fff;
+}	
+
+.box{
+	width: 200px;
+	height: 200px;
+	margin: auto;
+	transform: rotate(45deg); 
+	
+	border-top: 10px solid red;
+	border-right:  10px solid red;
+	border-bottom:  10px solid #fff;
+	border-left: 10px solid #fff;
+	border-radius: 50%;
+}
+
+.box{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: auto;
+	overflow: hidden;
+
+	}
+
+.box h4{
+	color: #fff;
+	transform: rotate(-45deg);
+	
+	
+	
+
+}
